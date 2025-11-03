@@ -13,11 +13,11 @@ public class Exercise {
     public static void whileLoop(int num) {
         int x = 0;
         while (x < num) {
-            System.out.println("Ciclo" + x + ": X = " + x + " . El proximo ciclo valdrá X = " + (x + 1));
+            System.out.println(x + " < " + num + ". El proximo ciclo valdra: " + (x + 1));
             x++;
         }
-        System.out.println("Fin del bucle. X ahora vale " + x + " y ya no es menor que " + num + ".");
-        }
+    }
+
 
 
 
